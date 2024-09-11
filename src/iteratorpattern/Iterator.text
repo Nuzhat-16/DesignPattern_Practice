@@ -1,0 +1,10 @@
+Iterator Design Pattern is a Behavioral Design Pattern.
+Main idea is to extract the traversal behavior of a collection into a separate object called an iterator.
+
+->A way to traverse the elements of a collection without exposing its underlying representation.
+->Encapsulates the details of complex data structures by exposing simple methods to access the
+ collection element.
+->Reduces traversal code duplication.
+->Applies the single responsibility and the open-closed principles each iteration algorithm is extracted
+in a separate class and now iterator can be added without modifying existing ones.
+
